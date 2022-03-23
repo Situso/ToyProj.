@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+* {
+    box-sizing: content-box;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-family: "Gugi", sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .title{
+  color: #1A1A1A;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#app .playBtn {
+  width: 80%;
+  background-color: #3660B5;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+#app .StageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app .StageHeader span {
+  font-size: 3rem;
+}
+
+#app .StageHeader .StageNumber {
+  font-size: 4rem;
+}
+
+#app .stage {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+#app .stage .tile {
+  cursor: pointer;
+  width: 50%;
+}  
